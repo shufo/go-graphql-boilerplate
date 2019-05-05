@@ -1,0 +1,16 @@
+- created_at: "2019-04-01 00:00:00"
+  id: "1"
+  type: USER
+  updated_at: "2019-04-01 00:00:00"
+- created_at: "2019-04-01 00:00:00"
+  id: "2"
+  type: ORGANIZATION_MEMBER
+  updated_at: "2019-04-01 00:00:00"
+- created_at: "2019-04-01 00:00:00"
+  id: "3"
+  type: ORGANIZATION_ADMIN
+  updated_at: "2019-04-01 00:00:00"
+- created_at: "2019-04-01 00:00:00"
+  id: "4"
+  type: SUPER_ADMIN
+  updated_at: "2019-04-01 00:00:00"

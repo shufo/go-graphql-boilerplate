@@ -1,0 +1,8 @@
+# currently gqlgen supports only FIELD_DEFINITION directive
+directive @hasRole(
+  role: RoleType!
+) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION | ARGUMENT_DEFINITION
+directive @hasMinimumRole(role: RoleType!) on FIELD_DEFINITION
+directive @isResourceOwner on FIELD_DEFINITION | ARGUMENT_DEFINITION | INPUT_FIELD_DEFINITION
+directive @isAuthenticated on FIELD_DEFINITION | ARGUMENT_DEFINITION | INPUT_FIELD_DEFINITION
+directive @length(min: Int, max: Int) on FIELD_DEFINITION

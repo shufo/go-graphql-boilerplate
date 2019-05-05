@@ -1,0 +1,114 @@
+[email]
+description = "The email address of the user"
+hash = "sha1-7c1ba0a1715ba40bb656b05d477951c2e76d2d37"
+other = "メールアドレス"
+
+[email_already_exists]
+description = "The message specified email already used"
+hash = "sha1-1d377634315df5a5310a30e55392a9dbd92938db"
+other = "指定されたメールアドレスは既に使われています"
+
+[email_not_found]
+description = "The message specified email is not found"
+hash = "sha1-c010974198fc03095344f793c35c692ceda2f04f"
+other = "指定したメールアドレスは存在しません"
+
+[email_or_password_is_incorrect]
+description = "The message for login failed"
+hash = "sha1-a345da0a00aaa01382288ce88f6b879e04ce1d86"
+other = "メールアドレスまたはパスワードが間違っています"
+
+[email_password_reset]
+description = "The password reset email"
+hash = "sha1-e27433ec2f7b20cc4a895b569e530383085fa7d1"
+other = "<p>Sent by example.jp.</p>Please click {{.ResetLink}} in 24 hours.<br>Thank you."
+
+[email_password_reset_complete]
+description = "The password reset email"
+hash = "sha1-c05175ff2cede7c0a743fb1916fa773b7d906cf8"
+other = "<p>パスワードの再設定が完了しました</p>"
+
+[email_validation]
+description = "The validation message of email format"
+hash = "sha1-9060e6e7a8db83ae48c61a698ac455b51ef5c207"
+other = "メールアドレスの形式で入力してください"
+
+[field_match_validation]
+description = "The field must match with the other field"
+hash = "sha1-01c351aecc3569a6ecb1639b2db9ce6239a18eb4"
+other = "{{.One}} と {{.Other}} が一致しません"
+
+[first_name]
+description = "The first name of user"
+hash = "sha1-9df2194954c330c0b7cc58fa050dd0c36f2e28e6"
+other = "名前"
+
+[invalid_password_reset_token]
+description = "The message when password reset token is invalid"
+hash = "sha1-b158feb1934ab20f0c2017598992daeab2ab1cf6"
+other = "無効なパスワードリセットリンクです"
+
+[last_name]
+description = "The last name of user"
+hash = "sha1-223fa75c093811741b4e7f07665d9d668ed148cd"
+other = "姓"
+
+[length_validation]
+description = "The validation message of input length"
+hash = "sha1-72347dc211e2333248affade0ce35cc16ba428ef"
+other = "Requires {{.Min}} to {{.Max}} characters"
+
+[name]
+description = "The name of a person"
+hash = "sha1-345934842f27395f4758048b9837bbdf392ab92f"
+other = "名前"
+
+[new_password]
+description = "A new password when user forget password"
+hash = "sha1-f906349bcb5cc23afa3f56a5fa5acd3c01f006c1"
+other = "新しいパスワード"
+
+[password]
+description = "The passphrase of user"
+hash = "sha1-f28db94e37af668f91314d18591f33988584e16f"
+other = "パスワード"
+
+[password_verification]
+description = "The passphrase of user (verify)"
+hash = "sha1-120c1b1d2a50bd7ac51038d044daba4874d7b198"
+other = "パスワードの確認"
+
+[phone_number]
+description = "The phone number of user"
+hash = "sha1-178822aff0b528a844e5e24ae95711bada5962b6"
+other = "電話番号"
+
+[required]
+description = "The message indicates input is required"
+hash = "sha1-770365ef6fb952799737bcabc9d54ba7337b23ed"
+other = "入力が必須です"
+
+[subject_password_reset]
+description = "The subject of password reset email"
+hash = "sha1-1154a2db91de0834c9d75e521143b17f1b3fa88c"
+other = "Change password for example"
+
+[subject_password_reset_complete]
+description = "The subject of password reset complete"
+hash = "sha1-8929516c0a268c59ca92548e9c755c3246ca76d3"
+other = "パスワード再設定完了"
+
+[token]
+description = "The token used by system"
+hash = "sha1-b57e0608fbe120b0cceb193b255e89b228648ae1"
+other = "トークン"
+
+[user_not_found]
+description = "The message specified user is not found"
+hash = "sha1-42a1932ae5fbd77fcb673ffbed44b44a3129814f"
+other = "指定したユーザは存在しません"
+
+[verified_token_not_found]
+description = "The message verified token is not found"
+hash = "sha1-2f1b907387d3f2be46d908c61f8f344cb73179ea"
+other = "無効なリセットトークンです"

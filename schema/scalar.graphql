@@ -1,0 +1,6 @@
+"The scalar NullableString Represents Nullable string field"
+scalar NullableString
+"The scalar Time represents Time"
+scalar NullableTime
+
+scalar Time

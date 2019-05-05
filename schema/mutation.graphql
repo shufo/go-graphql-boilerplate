@@ -1,0 +1,20 @@
+# Naming Convention: <Action><Resource>
+
+type Mutation {
+  """
+  createUser creates user by email
+  """
+  createUser(input: CreateUserInput!): authenticatedUser!
+  """
+  authUser authenticates user by email
+  """
+  authUser(input: AuthUserInput!): authenticatedUser!
+  """
+  requestPasswordReset requests password reset
+  """
+  requestPasswordReset(input: RequestPasswordResetInput!): PasswordReset!
+  validatePasswordReset(input: ValidatePasswordResetInput!): PasswordReset!
+  completePasswordReset(
+    input: CompletePasswordResetInput!
+  ): AuthenticationProvider!
+}

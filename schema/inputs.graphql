@@ -1,0 +1,42 @@
+# Naming Convention: <Action><Resource>Input
+
+input CreateUserInput {
+  """
+  Input for new user (email)
+  """
+  email: String!
+  password: String!
+  firstName: String!
+  lastName: String!
+  phoneNumber: String!
+}
+
+input AuthUserInput {
+  """
+  Input for user login (email)
+  """
+  email: String!
+  password: String!
+}
+
+input RequestPasswordResetInput {
+  """
+  Input for request password reset
+  """
+  email: String!
+}
+
+input ValidatePasswordResetInput {
+  """
+  Input for password reset token validation
+  """
+  token: String!
+}
+
+input CompletePasswordResetInput {
+  """
+  Input for password reset completion
+  """
+  token: String!
+  newPassword: String!
+}

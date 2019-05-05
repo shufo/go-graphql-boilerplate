@@ -1,0 +1,4 @@
+[length_validation]
+description = "The validation message of input length"
+hash = "sha1-72347dc211e2333248affade0ce35cc16ba428ef"
+other = "Requires {{.Min}} to {{.Max}} characters"

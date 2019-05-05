@@ -1,0 +1,11 @@
+development:
+  dialect: mysql
+  datasource: root:root@tcp(mysql:3306)/example?charset=utf8mb4&parseTime=True&loc=Local
+  dir: migrations
+  table: migrations
+
+production:
+  dialect: mysql
+  datasource: root:root@tcp(mysql:3306)/example?charset=utf8mb4&parseTime=True&loc=Local
+  dir: migrations
+  table: migrations

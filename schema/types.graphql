@@ -1,0 +1,46 @@
+## models
+
+"""
+The user object
+"""
+type User {
+  "A unique id of the user"
+  id: Int!
+  username: NullableString @isResourceOwner
+  email: NullableString
+  authenticationProviders: [AuthenticationProvider!]! @isResourceOwner
+}
+
+"""
+The authenticated provider object
+"""
+type AuthenticationProvider {
+  id: Int!
+  providerType: String!
+  providerUsername: String!
+  email: NullableString
+}
+
+"""
+Represents Password reset type
+"""
+type PasswordReset {
+  id: Int!
+  passwordResetToken: NullableString
+  status: NullableString
+  expiresAt: NullableTime
+  createdAt: NullableTime
+  updatedAt: NullableTime
+}
+
+## Custom Return Types
+
+"""
+The type return on user authenticated
+"""
+type authenticatedUser {
+  "The user id"
+  id: Int!
+  "JWT string for authentication"
+  token: String!
+}

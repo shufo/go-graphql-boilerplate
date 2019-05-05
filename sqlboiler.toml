@@ -1,0 +1,8 @@
+[mysql]
+  dbname  = "example"
+  host    = "mysql"
+  port    = 3306
+  user    = "root"
+  pass    = "root"
+  sslmode = "false"
+  blacklist = ["gorp_migrations", "migrations"]

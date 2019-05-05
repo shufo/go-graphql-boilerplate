@@ -1,0 +1,27 @@
+# Refer to https://gqlgen.com/config/
+# for detailed .gqlgen.yml documentation.
+
+struct_tag: gqlgen
+
+schema:
+  - "schema/*.graphql"
+exec:
+  filename: graph/generated/generated.go
+  package: generated
+model:
+  filename: models/generated.go
+  package: models
+resolver:
+  filename: resolver/resolver.go
+  type: Resolver
+models:
+  AuthenticationProvider:
+    model: github.com/shufo/go-graphql-boilerplate/models.AuthenticationProvider
+  User:
+    model: github.com/shufo/go-graphql-boilerplate/models.User
+  PasswordReset:
+    model: github.com/shufo/go-graphql-boilerplate/models.PasswordReset
+  NullableString:
+    model: github.com/shufo/go-graphql-boilerplate/models.NullableString
+  NullableTime:
+    model: github.com/shufo/go-graphql-boilerplate/models.NullableTime

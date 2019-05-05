@@ -1,0 +1,11 @@
+FROM alpine:3.9
+
+WORKDIR /app
+
+COPY ./app .
+
+RUN addgroup go \
+  && adduser -D -G go go \
+  && chown -R go:go /app/app
+
+CMD ["./app"]

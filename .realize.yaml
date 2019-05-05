@@ -1,0 +1,118 @@
+settings:
+  files:
+    outputs:
+      status: false
+      path: ""
+      name: .r.outputs.log
+    logs:
+      status: false
+      path: ""
+      name: .r.logs.log
+    errors:
+      status: false
+      path: ""
+      name: .r.errors.log
+  legacy:
+    force: false
+    interval: 0s
+schema:
+  - name: app
+    path: .
+    commands:
+      build:
+        status: true
+        method: go build -o app -v
+      run:
+        status: true
+        method: ./app
+    watcher:
+      extensions:
+        - go
+      paths:
+        - /
+        - graph/generated/generated.go
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor
+          - storage
+          - .history
+  - name: gqlgen
+    path: .
+    commands:
+      build:
+        status: true
+        method: gqlgen -v
+    watcher:
+      extensions:
+        - graphql
+        - gql
+        - yml
+      paths:
+        - gqlgen.yml
+        - schema
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor
+          - storage
+  - name: sqlboiler
+    path: .
+    commands:
+      build:
+        status: true
+        method: sqlboiler mysql --no-tests --tag gqlgen
+    watcher:
+      extensions:
+        - graphql
+        - gql
+        - toml
+        - sql
+      paths:
+        - gqlgen.yml
+        - migrations
+        - sqlboiler.toml
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor
+          - storage
+  - name: i18n_extract
+    path: .
+    commands:
+      build:
+        status: true
+        method: |
+          goi18n extract -outdir translations translations/messages.go
+    watcher:
+      extensions:
+        - go
+      paths:
+        - translations
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor
+          - storage
+  - name: goi18n_merge
+    path: .
+    commands:
+      build:
+        status: true
+        method: goi18n merge -outdir ./translations ./translations/active.ja.toml ./translations/translate.ja.toml ./translations/active.en.toml
+    watcher:
+      extensions:
+        - toml
+      paths:
+        - translations/active.en.toml
+        - translations/translate.ja.toml
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor
+          - storage

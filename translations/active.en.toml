@@ -1,0 +1,114 @@
+[email]
+description = "The email address of the user"
+one = "Email"
+other = "Email"
+
+[email_already_exists]
+description = "The message specified email already used"
+one = "The specified email is already used"
+other = "The specified email is already used"
+
+[email_not_found]
+description = "The message specified email is not found"
+one = "The specified email is not found"
+other = "The specified email is not found"
+
+[email_or_password_is_incorrect]
+description = "The message for login failed"
+one = "Email or Password is incorrect"
+other = "Email or Password is incorrect"
+
+[email_password_reset]
+description = "The password reset email"
+one = "<p>Sent by example.jp.</p>Please click {{.ResetLink}} in 24 hours.<br>Thank you."
+other = "<p>Sent by example.jp.</p>Please click {{.ResetLink}} in 24 hours.<br>Thank you."
+
+[email_password_reset_complete]
+description = "The password reset email"
+one = "<p>Password reset complete.</p>."
+other = "<p>Password reset complete.</p>"
+
+[email_validation]
+description = "The validation message of email format"
+one = "Requires email format"
+other = "Requires email format"
+
+[field_match_validation]
+description = "The field must match with the other field"
+one = "{{.One}} and {{.Other}} do not match"
+other = "{{.One}} and {{.Other}} do not match"
+
+[first_name]
+description = "The first name of user"
+one = "First Name"
+other = "First Name"
+
+[invalid_password_reset_token]
+description = "The message when password reset token is invalid"
+one = "Password reset token is invalid"
+other = "Password reset token is invalid"
+
+[last_name]
+description = "The last name of user"
+one = "Last Name"
+other = "Last Name"
+
+[length_validation]
+description = "The validation message of input length"
+one = "Requires {{.Min}} to {{.Max}} characters"
+other = "Requires {{.Min}} to {{.Max}} characters"
+
+[name]
+description = "The name of a person"
+one = "Name"
+other = "Name"
+
+[new_password]
+description = "A new password when user forget password"
+one = "New password"
+other = "New password"
+
+[password]
+description = "The passphrase of user"
+one = "Password"
+other = "Password"
+
+[password_verification]
+description = "The passphrase of user (verify)"
+one = "Password"
+other = "Password"
+
+[phone_number]
+description = "The phone number of user"
+one = "Phone Number"
+other = "Phone Number"
+
+[required]
+description = "The message indicates input is required"
+one = "cannot be blank"
+other = "cannot be blank"
+
+[subject_password_reset]
+description = "The subject of password reset email"
+one = "Change password for example"
+other = "Change password for example"
+
+[subject_password_reset_complete]
+description = "The subject of password reset complete"
+one = "Password reset complete"
+other = "Password reset complete"
+
+[token]
+description = "The token used by system"
+one = "Token"
+other = "Tokens"
+
+[user_not_found]
+description = "The message specified user is not found"
+one = "The specified user is not found"
+other = "The specified user is not found"
+
+[verified_token_not_found]
+description = "The message verified token is not found"
+one = "There is no verified password reset token"
+other = "There is no verified password reset token"

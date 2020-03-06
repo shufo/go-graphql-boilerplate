@@ -38,7 +38,7 @@ require (
 	github.com/sirupsen/logrus v1.4.1
 	github.com/spf13/cast v1.3.0 // indirect
 	github.com/stretchr/testify v1.3.0
-	github.com/vektah/gqlparser v1.1.2
+	github.com/vektah/gqlparser v1.3.1
 	github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d // indirect
 	github.com/volatiletech/null v8.0.0+incompatible
 	github.com/volatiletech/sqlboiler v3.2.0+incompatible

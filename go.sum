@@ -202,6 +202,8 @@ github.com/vektah/dataloaden v0.2.0 h1:lhynDrG7c8mNLahboCo0Wq82tMjmu5yOUv2ds/tBm
 github.com/vektah/dataloaden v0.2.0/go.mod h1:vxM6NuRlgiR0M6wbVTJeKp9vQIs81ZMfCYO+4yq/jbE=
 github.com/vektah/gqlparser v1.1.2 h1:ZsyLGn7/7jDNI+y4SEhI4yAxRChlv15pUHMjijT+e68=
 github.com/vektah/gqlparser v1.1.2/go.mod h1:1ycwN7Ij5njmMkPPAOaRFY4rET2Enx7IkVv3vaXspKw=
+github.com/vektah/gqlparser v1.3.1 h1:8b0IcD3qZKWJQHSzynbDlrtP3IxVydZ2DZepCGofqfU=
+github.com/vektah/gqlparser v1.3.1/go.mod h1:bkVf0FX+Stjg/MHnm8mEyubuaArhNEqfQhF+OTiAL74=
 github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d h1:gI4/tqP6lCY5k6Sg+4k9qSoBXmPwG+xXgMpK7jivD4M=
 github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d/go.mod h1:jspfvgf53t5NLUT4o9L1IX0kIBNKamGq1tWc/MgWK9Q=
 github.com/volatiletech/null v8.0.0+incompatible h1:7wP8m5d/gZ6kW/9GnrLtMCRre2dlEnaQ9Km5OXlK4zg=

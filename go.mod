@@ -5,7 +5,7 @@ go 1.12
 require (
 	github.com/99designs/gqlgen v0.8.2
 	github.com/BurntSushi/toml v0.3.1
-	github.com/DATA-DOG/go-txdb v0.1.2
+	github.com/DATA-DOG/go-txdb v0.1.3
 	github.com/asaskevich/govalidator v0.0.0-20180720115003-f9ffefc3facf // indirect
 	github.com/aws/aws-sdk-go v1.19.11
 	github.com/casbin/casbin v1.8.1

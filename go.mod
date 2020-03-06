@@ -18,7 +18,7 @@ require (
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/go-testfixtures/testfixtures v2.5.1+incompatible
 	github.com/gobuffalo/packd v0.0.0-20190315124812-a385830c7fc0 // indirect
-	github.com/gobuffalo/packr v1.24.0
+	github.com/gobuffalo/packr v1.30.1
 	github.com/gofrs/uuid v3.2.0+incompatible // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
 	github.com/google/uuid v1.1.1

@@ -33,7 +33,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.10.0 // indirect
 	github.com/nicksnyder/go-i18n/v2 v2.0.0-beta.6
 	github.com/pkg/errors v0.8.1
-	github.com/rs/cors v1.6.0
+	github.com/rs/cors v1.7.0
 	github.com/rubenv/sql-migrate v0.0.0-20190212093014-1007f53448d7
 	github.com/sirupsen/logrus v1.4.1
 	github.com/spf13/cast v1.3.0 // indirect

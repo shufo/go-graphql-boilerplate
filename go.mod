@@ -15,7 +15,7 @@ require (
 	github.com/go-chi/chi v4.0.2+incompatible
 	github.com/go-chi/jwtauth v3.3.0+incompatible
 	github.com/go-ozzo/ozzo-validation v3.5.0+incompatible
-	github.com/go-sql-driver/mysql v1.4.1
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-testfixtures/testfixtures v2.5.1+incompatible
 	github.com/gobuffalo/packd v0.0.0-20190315124812-a385830c7fc0 // indirect
 	github.com/gobuffalo/packr v1.24.0

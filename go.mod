@@ -41,7 +41,7 @@ require (
 	github.com/vektah/gqlparser v1.1.2
 	github.com/volatiletech/inflect v0.0.0-20170731032912-e7201282ae8d // indirect
 	github.com/volatiletech/null v8.0.0+incompatible
-	github.com/volatiletech/sqlboiler v3.2.0+incompatible
+	github.com/volatiletech/sqlboiler v3.7.1+incompatible
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	golang.org/x/crypto v0.0.0-20190411191339-88737f569e3a
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3 // indirect

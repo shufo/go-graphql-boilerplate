@@ -26,7 +26,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
 	github.com/jinzhu/gorm v1.9.2
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
-	github.com/lib/pq v1.0.0
+	github.com/lib/pq v1.7.0
 	github.com/machinebox/graphql v0.2.2
 	github.com/matryer/is v1.2.0 // indirect
 	github.com/mattn/go-oci8 v0.0.0-20190410054007-e00f23025626 // indirect
